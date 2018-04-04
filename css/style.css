@@ -6,10 +6,11 @@
 .nav-wrapper{
    color:#fff;
    background:#000;
-   position:fixed;
+   position: relative;
    top:0;
    overflow: hidden;
    z-index: 100;
+   
 }
 
 .inner-wrap{
@@ -42,6 +43,93 @@ ul li a{
    margin-left:13rem;
    font-size:3rem;
    font-family: Arial, Helvetica, sans-serif;
+   position: relative;
+}
+
+
+#subMenu1{
+  position:absolute;
+  z-index: 1;
+  width:100%;
+  background:#fff;
+  height:30vh;
+  margin:0 auto;
+  padding-left:4rem;
+  display:none;
+}
+
+#subMenu1 .responsive-img{
+   width:70%;
+   height:70%;   
+   padding:10px 12px;
+   position: relative;
+}
+
+#subMenu1 p{
+  position: absolute;
+  color:#fff;
+  margin-top:-5rem;
+  margin-left:1.5rem;
+}
+#subMenu2{
+  position:absolute;
+  z-index: 1;
+  width:100%;
+  background:#fff;
+  height:30vh;
+  margin:0 auto;
+  padding-left:4rem;
+  display:none;
+}
+
+#subMenu2 .responsive-img{
+   width:50%;
+   height:50%;   
+   padding:10px 12px;
+   position: relative;
+}
+
+#subMenu2 p{
+  position: absolute;
+  color:#000;
+  margin-top:-5rem;
+  margin-left:1.5rem;
+}
+
+#subMenu3{
+  position:absolute;
+  z-index: 1;
+  width:100%;
+  background:#fff;
+  height:30vh;
+  margin:0 auto;
+  padding-left:4rem;
+  display:none;
+}
+
+#subMenu3 .responsive-img{
+   width:70%;
+   height:60%;   
+   padding:10px 12px;
+   position: relative;
+}
+
+#subMenu3 p{
+  position: absolute;
+  color:#fff;
+  margin-top:-5rem;
+  margin-left:1.5rem;
+}
+
+#subMenu4{
+  position:absolute;
+  z-index: 1;
+  width:100%;
+  background:#ccc;
+  height:30vh;
+  margin:0 auto;
+  padding-left:4rem;
+  display:none;
 }
 
 .fa-search,
@@ -51,11 +139,12 @@ ul li a{
 }
 
 .header-image{
-   background-image:url('../img/headphone.jpeg');
+  background-image:url('../img/headphone.jpeg');
    padding:190px;
    background-size: cover;
    width:100%;
    height:auto;
+   position:relative; 
 }
 
 input:input[type=search]{
@@ -85,13 +174,7 @@ input:input[type=search]{
    color:#fff;
 }
 
-.hiddenMenu{
-   width:100%;
-   height:40vh;
-   z-index: 1;
-   position: absolute;
-   background:#fff;
-}
+
 
 .mainContent{
    
@@ -148,4 +231,115 @@ form{
    color:#fff;
    margin:0 auto;
    width:60%;
+}
+
+
+/* Inventory Page */
+.InventoryHeaderImg{
+  background-image:url('../img/model7.jpeg');
+  padding:190px;
+  background-size: contain;
+  width:100%;
+  height:auto;
+}
+
+.InventoryHeaderImg h3{
+  color:#fff;
+}
+
+.infowrap{
+  text-align: center;
+  margin: 0 auto;
+  width:60%;
+  }
+
+  .headphones img{
+    width:70%;
+  }
+
+  .banner{
+  background-image:url('../img/model4.jpeg');
+  padding:200px;
+  background-size: cover;
+  width:100%;
+  height:auto;
+  background-position: 30% 30%; 
+
+
+  }
+
+  .headphoneBanner{
+    margin-top:3rem;
+  }
+
+  .submenuHP{
+    margin: 0 auto;
+  }
+
+
+  .header-image2{
+    background-image:url('../img/model.jpeg');
+    padding:120px;
+    background-size: cover;
+    width:100%;
+    height:auto;
+    background-position: 30% 30%; 
+    color:#fff;
+ }
+ 
+ #contact{
+  margin-top: 2rem;
+}
+ 
+form input[type = "text"], form textarea {
+  width: 80%;
+  padding: 10px;
+  background:#ccc;
+  color: #404040;
+  margin-bottom: 10px;
+  border: 0;
+}
+
+#contact .btn{
+  background:rgb(255, 20, 20);
+}
+
+.wrap{
+  margin:3rem auto;
+  width:90%;
+}
+
+#galleryImgs{
+  height:10%;
+  width:10%;
+  margin-top:3.5rem;
+}
+
+.specsWrap{
+  width:50%;
+  margin:0 auto;
+
+}
+
+.specs{
+  background:#e4e3e3;
+  padding:100px;
+}
+#tech{
+  width:70%;
+  margin:3rem auto;
+  font-size:1.3rem;
+}
+
+#tech ul li{
+  border-bottom: rgb(146, 144, 144) 1px solid;
+}
+
+.galleryWrap{
+  background: #0a0a0a;
+  color:#fff;
+}
+
+.galleryWrap img{
+  height:80%;
 }
