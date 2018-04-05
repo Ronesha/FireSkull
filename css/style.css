@@ -306,14 +306,18 @@ form input[type = "text"], form textarea {
 
 .wrap{
   margin:3rem auto;
-  width:90%;
+  width:80%;
 }
 
-#galleryImgs{
-  height:10%;
-  width:10%;
-  margin-top:3.5rem;
+.galleryImgs{
+  height:100%;
+  width:100%;
 }
+.wrap .galleryImgs img{
+  width:30%;
+  height:auto;
+}
+
 
 .specsWrap{
   width:50%;
@@ -342,4 +346,55 @@ form input[type = "text"], form textarea {
 
 .galleryWrap img{
   height:80%;
+}
+
+.carousel{
+  height:100vh;
+}
+
+.wrapCarousel{
+  height:100vh;
+}
+
+.headPhoneDetails{
+  margin-top:3rem;
+  background:#0a0a0a;
+}
+
+.owl-carousel {
+  margin-top:7rem;
+  
+}
+
+.featuresDesc{
+  margin:3rem auto;
+}
+
+.secWrap{
+  width:50%;
+  margin:3rem auto;
+}
+
+a.btn{
+  color:#0a0a0a;
+  background:#fff;
+  border:2px solid #0a0a0a;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a.btn:hover{
+  background:rgb(255, 20, 20);
+  color:#fff;
+  border: 0;
+}
+
+.header-image3{
+  background-image:url('../img/earbuds.jpeg');
+    padding:120px;
+    background-size: cover;
+    width:100%;
+    height:auto;
+    background-position: 80% 80%; 
+    color:#fff;
+
 }

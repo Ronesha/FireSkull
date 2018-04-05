@@ -40,17 +40,29 @@ $( document ).ready(function() {
 
 
 
+      $(".owl-carousel").owlCarousel();
+      
+      var img = $('.item');
+      img.hover(function(e){
+       img.css('transform', 'scale(.9)');
+       e.preventDefault();
+      })
+
+      img.mouseleave(function(e){
+        img.css('transform', 'scale(.6)');
+       e.preventDefault();
+      })
+      
+  
+
 
   
   
   
   
-  
-  
-  /*Headphone.html section*/
 
    var mainImg = $('#mainImg');
-    var imgs = $('#galleryImgs');
+    var imgs = $('.galleryImgs');
    
      imgs.on('click', function(e){ 
         mainImg.attr('src', e.target.src);
